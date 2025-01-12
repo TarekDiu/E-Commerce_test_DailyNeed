@@ -11,7 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 		glue="stepDefination",
 	    dryRun = false,
 		monochrome = true,
-		tags= "@test1 or @test2"
+		tags= "@test1 or @test2",
+		plugin = {"html:target/cucumber-reports/cucumber-html-report.html"} 
+		
+			
 		
 		)
 
