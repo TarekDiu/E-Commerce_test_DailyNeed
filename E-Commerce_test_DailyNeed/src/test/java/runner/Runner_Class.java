@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 	    dryRun = false,
 		monochrome = true,
 		tags= "@test1 or @test2",
-		plugin = {"html:target/cucumber-reports/cucumber-html-report.html"} 
+		plugin = {"html:test-output/Suite/index.html"} 
 		
 			
 		
